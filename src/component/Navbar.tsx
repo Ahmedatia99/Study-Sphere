@@ -26,8 +26,8 @@ export default function Navbar() {
           </ul>
         </div>
         <div className="flex">
-          <Button variant="primary" action="Sign Up" />
-          <Button variant="second" action="Login" />
+          <Button variant="second" action="Sign Up" />
+          <Button variant="primary" action="Login" />
         </div>
       </section>
     </main>

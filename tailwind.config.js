@@ -1,4 +1,4 @@
-/** @type {import('tailwindcss').Config} */
+/** @type {import('tailwindcss').Config} **/
 export default {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
@@ -7,7 +7,8 @@ export default {
         morning: "#FF9500",
         lighting: "#E4E4E7",
         darking: "#191919",
-        litewhite: "#F7F7F8"
+        litewhite: "#F7F7F8",
+        liteorange: "#FFF4E5",
       },
     },
   },

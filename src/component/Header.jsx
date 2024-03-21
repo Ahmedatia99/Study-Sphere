@@ -28,7 +28,11 @@ export default function Header() {
         </div>
         <div className="flex justify-center pt-16">
           <Button variant="primary" action="Explore Courses" />
-          <Button variant="second" action="View Pricing" />
+          <Button
+            variant="second"
+            action="View Pricing"
+            paddingname="px-6 py-4"
+          />
         </div>
       </section>
     </main>

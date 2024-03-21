@@ -9,6 +9,7 @@ export default {
         darking: "#191919",
         litewhite: "#F7F7F8",
         liteorange: "#FFF4E5",
+        textcook: "#262626",
       },
     },
   },

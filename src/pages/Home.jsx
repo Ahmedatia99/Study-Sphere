@@ -1,7 +1,7 @@
-import React from 'react'
-import Topbanner from "../component/atoms/Topbanner"
-import Navbar from "../component/Navbar"
-import Header from "../component/Header"
+import React from "react";
+import Topbanner from "../component/atoms/Topbanner";
+import Navbar from "../component/Navbar";
+import Header from "../component/Header";
 
 export default function Home() {
   return (
@@ -10,5 +10,5 @@ export default function Home() {
       <Navbar />
       <Header />
     </>
-  )
+  );
 }

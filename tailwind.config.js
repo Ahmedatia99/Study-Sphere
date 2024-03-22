@@ -10,6 +10,7 @@ export default {
         litewhite: "#F7F7F8",
         liteorange: "#FFF4E5",
         textcook: "#262626",
+        tasting:"#F1F1F3"
       },
     },
   },

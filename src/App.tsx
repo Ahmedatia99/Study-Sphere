@@ -6,11 +6,15 @@ import Courses from "./pages/Courses.jsx";
 import Contact from "./pages/Contact.jsx";
 import Pricing from "./pages/Pricing.jsx";
 import About from "./pages/About.jsx";
+import Topbanner from "./component/atoms/Topbanner.jsx"
+import Navbar from "./component/Navbar"
 import DefaultLayout from "./layout/DefultLayout";
 
 function App() {
   return (
     <main>
+       <Topbanner />
+      <Navbar />
       <Routes>
         <Route path="/" element={<DefaultLayout />}>
           <Route path="/" element={<Home />} />

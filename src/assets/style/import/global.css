@@ -17,7 +17,7 @@
     border-radius: 8px;
   }
   a:hover{
-    background: #F1F1F3;
+    /* background: #F1F1F3; */
   }
   li:not(:last-child){
     margin-right: 26px;

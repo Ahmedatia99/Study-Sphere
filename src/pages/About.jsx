@@ -1,15 +1,12 @@
 import React from "react";
 import Topbanner from "../component/atoms/Topbanner";
-import Navbar from "../component/Navbar";
-import Header from "../component/Header";
+import Navbar from "../component/Navbar.tsx";
 
-
-export default function Home() {
+export default function About() {
   return (
     <>
       <Topbanner />
       <Navbar />
-      <Header />
     </>
   );
 }

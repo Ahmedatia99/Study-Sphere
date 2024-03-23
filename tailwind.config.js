@@ -10,7 +10,17 @@ export default {
         litewhite: "#F7F7F8",
         liteorange: "#FFF4E5",
         textcook: "#262626",
-        tasting:"#F1F1F3"
+        tasting: "#F1F1F3",
+      },
+      screens: {
+        mobile: "320px",
+        tablet: "768px",
+        // => @media (min-width: 640px) { ... }
+
+        laptop: "1025px",
+        // => @media (min-width: 1024px) { ... }
+
+        desktop: "1279px",
       },
     },
   },

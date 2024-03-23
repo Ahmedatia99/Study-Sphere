@@ -15,19 +15,19 @@ export const Button = ({
   paddingname,
 }: ButtonProps) => {
   const variants = {
-    primary: "bg-morning text-white px-4 py-2",
-    second: "bg-transparent px-4 py-2",
+    primary: "bg-morning text-white desktop:px-4 desktop:py-3 md:p-2 sm:p-2",
+    second: "bg-transparent desktop:px-4 desktop:py-3 md:p-2",
   }[variant];
 
   return (
     <button
       className={classNames(
-        `flex items-center justify-center rounded-lg mr-2 mobile:w-full transition-all`,
+        `flex items-center justify-center rounded-lg mr-2  transition-all text-sm `,
         variants,
         paddingname
       )}
     >
-      <span className={classNames("text-[16px] px-2 ")}>{action}</span>
+      <span className={classNames("px-2")}>{action}</span>
     </button>
   );
 };

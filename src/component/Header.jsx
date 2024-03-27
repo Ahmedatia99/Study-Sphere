@@ -1,6 +1,6 @@
 import React from "react";
 import { SlEnergy } from "react-icons/sl";
-import { Button } from "./atoms/Button.tsx";
+import { Button } from "./atoms/Button/Button.tsx";
 
 export default function Header() {
   return (

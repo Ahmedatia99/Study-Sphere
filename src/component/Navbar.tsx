@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "./atoms/Button";
+import { Button } from "./atoms/Button/Button";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import classNames from "classnames";

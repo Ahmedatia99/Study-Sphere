@@ -1,6 +1,7 @@
 import React from "react";
 import { HTMLAttributes } from "react";
 import classNames from "classnames";
+import "./colored.css";
 
 interface ButtonProps extends HTMLAttributes<HTMLButtonElement> {
   variant?: "primary" | "second ";
@@ -15,14 +16,14 @@ export const Button = ({
   paddingname,
 }: ButtonProps) => {
   const variants = {
-    primary: "bg-morning text-white desktop:px-4 desktop:py-3 md:p-2 sm:p-2",
-    second: "bg-transparent desktop:px-4 desktop:py-3 md:p-2",
+    primary: " text-black desktop:px-4 desktop:py-3 md:p-2 sm:p-2",
+    second: " desktop:px-2 desktop:py-1 md:p-2",
   }[variant];
 
   return (
     <button
       className={classNames(
-        `flex items-center justify-center rounded-lg mr-2  transition-all text-sm `,
+        `flex items-center justify-center rounded-lg mr-2  transition-all text-sm colored `,
         variants,
         paddingname
       )}

@@ -16,19 +16,19 @@ export const Button = ({
   paddingname,
 }: ButtonProps) => {
   const variants = {
-    primary: " text-black desktop:px-4 desktop:py-3 md:p-2 sm:p-2",
-    second: " desktop:px-2 desktop:py-1 md:p-2",
+    primary: " colored",
+    second: "bg-white  text-black",
   }[variant];
 
   return (
     <button
       className={classNames(
-        `flex items-center justify-center rounded-lg mr-2  transition-all text-sm colored `,
+        `flex items-center justify-center rounded-lg transition-all text-sm mr-3 text-white`,
         variants,
         paddingname
       )}
     >
-      <span className={classNames("px-2")}>{action}</span>
+      {action}
     </button>
   );
 };

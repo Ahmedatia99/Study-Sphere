@@ -118,9 +118,17 @@ export default function Navbar() {
           </div>
         </div>
         {/* login-3 */}
-        <div className="flex px-5 desktop:flex tablet:flex mobile:hidden labtob:flex">
-          <Button variant="second" action="Sign Up" />
-          <Button variant="primary" action="Login" />
+        <div className="flex desktop:flex tablet:flex mobile:hidden labtob:flex">
+          <Button
+            variant="second"
+            action="Sign Up"
+            paddingname="desktop:px-5 desktop:py-0 md:p-2 sm:p-2"
+          />
+          <Button
+            variant="primary"
+            action="Login"
+            paddingname="desktop:px-5 desktop:py-0 md:p-2 sm:p-2"
+          />
         </div>
         {/* button menu*/}
       </section>
